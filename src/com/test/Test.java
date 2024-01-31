@@ -16,6 +16,7 @@ public class Test {
 		System.out.println("Git merge testing");
 		System.out.println("Created practice1 branch.");
 		System.out.println("Added first commit.");
+		System.out.println("Added second commit.");
 		for(int i = 0; i < 10; i ++) {
 			System.out.println(LocalDateTime.now().getNano());
 			System.out.println("Parent: "+ i);
