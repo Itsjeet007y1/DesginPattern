@@ -12,6 +12,7 @@ public class Test {
 		thread.start();
 		thread1.start();
 		
+		System.out.println("Testing....");
 		for(int i = 0; i < 10; i ++) {
 			System.out.println(LocalDateTime.now().getNano());
 			System.out.println("Parent: "+ i);
