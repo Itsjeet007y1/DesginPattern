@@ -13,6 +13,7 @@ public class Test {
 		thread1.start();
 		
 		System.out.println("Testing....");
+		System.out.println("Git merge testing");
 		for(int i = 0; i < 10; i ++) {
 			System.out.println(LocalDateTime.now().getNano());
 			System.out.println("Parent: "+ i);
